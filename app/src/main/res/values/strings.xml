@@ -9,4 +9,9 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="API">3d5fdb67-1672-41b4-854c-a1f4c1a8afd5</string>
 </resources>
+
+
+<!--    https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest?CMC_PRO_API_KEY=3d5fdb67-1672-41b4-854c-a1f4c1a8afd5&sort=market_cap&start=1&limit=10&cryptocurrency_type=tokens&convert=USD-->

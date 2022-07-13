@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/loadingImage"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:srcCompat="@color/teal_700" />
+
+    <ImageView
+        android:id="@+id/bitcoinImage"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/shibaImage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_bitcoin_btc_logo" />
+
+    <ImageView
+        android:id="@+id/bnbImage"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/bitcoinImage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_bnb_bnb_logo" />
+
+    <ImageView
+        android:id="@+id/shibaImage"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="136dp"
+        app:layout_constraintBottom_toBottomOf="@+id/loadingImage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_shiba_inu_shib_logo" />
+
+    <ImageView
+        android:id="@+id/phoneImage"
+        android:layout_width="334dp"
+        android:layout_height="465dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.796"
+        app:srcCompat="@drawable/phone_image" />
+
+    <ImageView
+        android:id="@+id/etheriumImage"
+        android:layout_width="120dp"
+        android:layout_height="206dp"
+        app:layout_constraintBottom_toBottomOf="@+id/phoneImage"
+        app:layout_constraintEnd_toEndOf="@+id/phoneImage"
+        app:layout_constraintStart_toStartOf="@+id/phoneImage"
+        app:layout_constraintTop_toTopOf="@+id/phoneImage"
+        app:layout_constraintVertical_bias="0.482"
+        app:srcCompat="@drawable/ic_ethereum_eth_logo" />
+</androidx.constraintlayout.widget.ConstraintLayout>
